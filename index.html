@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f8e0e0;
+            margin: 0;
+            padding: 0;
+            color: #444;
+            box-sizing: border-box;
+        }
+        header {
+            background: #27b7db;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .birthday-message {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 1.5rem;
+            color: #555;
+        }
+
+        /* Floating Images */
+        .images-container {
+            text-align: center;
+            margin-top: 30px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .images-container img {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 10px;
+            animation: float 5s ease-in-out infinite;
+            transition: transform 0.3s;
+        }
+        .images-container img:nth-child(2) {
+            animation-delay: 1s;
+        }
+        .images-container img:nth-child(3) {
+            animation-delay: 2s;
+        }
+        .images-container img:nth-child(4) {
+            animation-d
